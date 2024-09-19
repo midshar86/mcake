@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),t={__name:"separatorBar",props:["text","french"],setup(t){let r=t,n=e.computed((()=>{var e;return null==(e=r.french)?void 0:e.split(" ")[0]}));return(r,o)=>({a:e.t(t.text),b:e.t(t.french),c:e.t(e.unref(n))})}};wx.createComponent(t);

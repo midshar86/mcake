@@ -1,0 +1,1 @@
+<view class="separator-bar-container flex justify-between align-center padding"><view class="left-bar flex align-center"><label class="iconfont margin-right"></label><view><view class="text-lg">{{a}}</view><view class="text-xs margin-top-xs">{{b}}</view></view></view><view class="right-bar">{{c}}</view></view>

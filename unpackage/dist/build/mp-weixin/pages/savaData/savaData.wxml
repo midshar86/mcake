@@ -1,0 +1,1 @@
+<view><button type="primary" bindtap="{{a}}">存入分类数据</button><button type="primary" bindtap="{{b}}">存入商品数据</button><button type="primary" bindtap="{{c}}">存入全屏轮播数据</button></view>

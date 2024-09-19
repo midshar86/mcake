@@ -1,0 +1,123 @@
+{
+	"easycom": {
+		"autoscan": true,
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home"
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/mine/mine"
+		},
+		{
+			"path": "pages/detail/detail"
+		},
+		{
+			"path": "pages/savaData/savaData"
+		},
+		{
+			"path": "pages/posterPage/posterPage"
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/settleAccounts/settleAccounts",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/address/address",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	}
+	// 	"tabBar": {
+	// 		"color": "#9c9c9c",
+	// 		"backgroundColor": "rgba(120,230,255)",
+	// 		"selectedColor": "orangered",
+	// 		"fontSize": "14px",
+	// 		"height": "60px",
+	// 		"iconfontSrc": "./iconfont1/iconfont.ttf",
+	// 		"list": [{
+	// 				"text": "首页",
+	// 				"color": "#9c9c9c",
+	// 				"pagePath": "pages/home/home",
+	// 				"iconfont": {
+	// 					"text": "\ue656",
+	// 					"color": "#9c9c9c",
+	// 					"selectedColor": "orangered"
+	// 				}
+	// 			}, {
+	// 				"text": "蛋糕",
+	// 				"pagePath": "pages/index/index",
+	// 				"iconfont": {
+	// 					"selectedColor": "orangered",
+	// 					"color": "#9c9c9c",
+	// 					"text": "\ue650"
+	// 				}
+	// 			},
+	// 			{
+	// 				"text": "面包",
+	// 				"pagePath": "pages/bread/bread",
+	// 				"iconfont": {
+	// 					"text": "\ue697",
+	// 					"color": "#9c9c9c",
+	// 					"selectedColor": "orangered"
+	// 				}
+	// 			}, {
+	// 				"text": "小吃",
+	// 				"color": "#9c9c9c",
+	// 				"pagePath": "pages/foods/foods",
+	// 				"iconfont": {
+	// 					"text": "\ue63b",
+	// 					"color": "#9c9c9c",
+	// 					"selectedColor": "orangered"
+	// 				}
+	// 			}, {
+	// 				"text": "我的",
+	// 				"color": "#9c9c9c",
+	// 				"pagePath": "pages/mine/mine",
+	// 				"iconfont": {
+	// 					"text": "\ue6b1",
+	// 					"color": "#9c9c9c",
+	// 					"selectedColor": "orangered"
+	// 				}
+	// 			}
+	// 		]
+	// 	}
+}

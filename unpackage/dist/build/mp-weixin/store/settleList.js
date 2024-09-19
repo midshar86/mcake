@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js").defineStore("settleList",{state:()=>({goodsList:[]}),actions:{addSettleList(t){this.clearGoodsList(),t.forEach((t=>{this.goodsList.push(t)}))},clearGoodsList(){this.goodsList=[]}},getters:{totalSettlePrice(){return this.goodsList.reduce(((t,e)=>t+Number(e.price)*e.buyNum),0)}}});exports.useSettleStore=t;

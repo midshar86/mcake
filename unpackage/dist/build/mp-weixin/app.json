@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/detail/detail",
+    "pages/savaData/savaData",
+    "pages/posterPage/posterPage",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/cart/cart",
+    "pages/settleAccounts/settleAccounts",
+    "pages/address/address"
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "header-comp": "/components/header",
+    "item-comp": "/components/item",
+    "separator-bar-comp": "/components/separatorBar"
+  }
+}

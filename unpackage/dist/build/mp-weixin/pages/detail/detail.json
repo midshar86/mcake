@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "up-rate": "../../uni_modules/uview-plus/components/u-rate/u-rate",
+    "up-dropdown-item": "../../uni_modules/uview-plus/components/u-dropdown-item/u-dropdown-item",
+    "up-dropdown": "../../uni_modules/uview-plus/components/u-dropdown/u-dropdown",
+    "up-number-box": "../../uni_modules/uview-plus/components/u-number-box/u-number-box",
+    "up-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "up-toast": "../../uni_modules/uview-plus/components/u-toast/u-toast"
+  }
+}

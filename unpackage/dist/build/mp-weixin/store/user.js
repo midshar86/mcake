@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),s=e.defineStore("user",{state:()=>({userinfo:e.index.getStorageSync("userinfo")}),actions:{saveUserInfo(s){this.userinfo=s,e.index.setStorage({key:"userinfo",data:s})}},getters:{isLogin(){var e;return null==(e=this.userinfo)?void 0:e.token}}});exports.useUserStore=s;

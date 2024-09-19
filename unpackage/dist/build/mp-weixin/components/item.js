@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js"),e={__name:"item",props:["price","sign","french","title"],emits:["addToCart"],setup(e,{emit:n}){const i=n,r=function(){i("addToCart")};return(n,i)=>t.e({a:t.t(e.title),b:e.sign},e.sign?{c:t.t(e.sign)}:{},{d:t.t(e.french),e:t.t(e.price),f:t.o(r)})}};wx.createComponent(e);

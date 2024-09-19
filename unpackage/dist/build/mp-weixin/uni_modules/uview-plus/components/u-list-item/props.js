@@ -1,0 +1,1 @@
+"use strict";const e=require("../../libs/vue.js"),r=require("../../libs/config/props.js"),s=e.defineMixin({props:{anchor:{type:[String,Number],default:()=>r.defProps.listItem.anchor}}});exports.props=s;

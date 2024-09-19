@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),t={__name:"posterPage",setup(t){const a=e.ref("");return e.onLoad((e=>{a.value="https://www.mcake.com/#"+e.path})),(e,t)=>({a:a.value})}};wx.createPage(t);

@@ -1,0 +1,1 @@
+"use strict";const e=require("../../libs/vue.js"),r=require("../../libs/config/props.js"),o=e.defineMixin({props:{title:{type:String,default:()=>r.defProps.cellGroup.title},border:{type:Boolean,default:()=>r.defProps.cellGroup.border}}});exports.props=o;

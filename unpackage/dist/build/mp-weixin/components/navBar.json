@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "up-cell": "../uni_modules/uview-plus/components/u-cell/u-cell",
+    "up-list-item": "../uni_modules/uview-plus/components/u-list-item/u-list-item",
+    "up-list": "../uni_modules/uview-plus/components/u-list/u-list",
+    "up-popup": "../uni_modules/uview-plus/components/u-popup/u-popup"
+  }
+}
